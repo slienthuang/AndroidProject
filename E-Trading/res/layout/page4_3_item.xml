@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/page4Item3Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_launcher" />
+
+        <Button
+            android:id="@+id/page4Item3Btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@+id/page4Item3Image"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/et_cancel" />
+
+        <Button
+            android:id="@+id/page4Item3Btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/page4Item3Btn1"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/page4Item3Btn1"
+            android:background="@drawable/et_sucess" />
+
+        <TextView
+            android:id="@+id/page4Item3Text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/page4Item3Image"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/page4Item3Text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/page4Item3Text1"
+            android:layout_below="@+id/page4Item3Text1"
+            android:layout_marginTop="10dp"
+            android:text="TextView" />
+    </RelativeLayout>
+
+</LinearLayout>

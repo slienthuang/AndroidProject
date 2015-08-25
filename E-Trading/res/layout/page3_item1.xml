@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp" >
+
+        <ImageView
+            android:id="@+id/page3Image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/page3Text1"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/et_edit" />
+
+        <TextView
+            android:id="@+id/page3Text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="text1"
+            android:layout_marginLeft="20dp" />
+        
+       <EditText
+            android:id="@+id/page3Edit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/page3Image1"
+            android:layout_toRightOf="@+id/page3Text1"
+            android:layout_alignParentBottom="true"
+            android:ems="10" />
+
+    
+    </RelativeLayout>
+
+</LinearLayout>
